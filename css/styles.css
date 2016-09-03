@@ -2,6 +2,7 @@ body {
   font-size: 16px;
   color: #fff;
   font-family: 'Oxygen', sans-serif;
+  overflow-x: hidden;
 }
 
 /** HEADER **/
@@ -12,6 +13,10 @@ body {
 }
 #header-nav .container{  
   margin : 0;
+  padding: 0;
+}
+
+.navbad-header{
   padding: 10px;
 }
 .navbar-brand h1 { /* Restaurant name */
@@ -26,12 +31,15 @@ body {
   text-decoration: none;
 }
 
-#nav-list {
+#nav-list li{
   margin: 0;
+
 }
 #nav-list a {
+  margin :0;
   color: #951C49;
   padding: 10px;
+    background-color: #f2edd9;
   text-align: center;
 }
 #nav-list a:hover {
