@@ -39,7 +39,7 @@ body {
   margin :0;
   color: #951C49;
   padding: 10px;
-    background-color: #f2edd9;
+  background-color: #f2edd9;
   text-align: center;
 }
 #nav-list a:hover {
@@ -49,7 +49,7 @@ body {
   font-size: 1.8em;
 }
 .navbar-header {
-padding: 10px;
+  padding: 10px;
 }
 
 .navbar-toggle{
@@ -76,7 +76,6 @@ padding: 10px;
 
 #main-content{
   height: auto;
-  position: relative;
   background-color:#eceef0;
   color:#000;
   margin: 15px;
