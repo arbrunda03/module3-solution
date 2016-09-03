@@ -1,0 +1,121 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {  
+  border-radius: 0;
+  border: 0;
+}
+.container {
+  margin-left:10px;
+}
+#header-nav .container{  
+  margin : 0;
+  padding:0;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 1.5em;  
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin: 0;
+}
+#nav-list a {
+  color: #951C49;
+  padding: 10px;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header {
+padding: 10px;
+}
+
+.navbar-toggle{
+  background-color: #ddd;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #fff;
+}
+.navbar-header .navbar-toggle.collapsed {
+  border: 2px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+  border: 2px solid #000;
+} 
+.navbar-default .navbar-toggle .icon-bar {
+  border: 2px solid #fff;
+} 
+/* END HEADER */
+/* MAIN CONTENT */
+
+#main-content{
+  height: 1500px;
+  position: relative;
+  background-color:#fff;
+  color:#000;
+  margin: 15px;
+  padding: 15px;
+  
+}
+
+#main-content .container{
+  width: 100%
+}
+.section{
+  margin-bottom: 20px;
+  background-color: #bbbbaa;
+  border-radius: 2px;
+  border: 1px gray solid;
+}
+.section p{
+  padding: 6px 25px;
+}
+
+#main-title {
+  margin-bottom: 35px;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+   
+  .navbar-brand h1 { /* Restaurant name */    
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: black;
+    border: 1px black solid;
+  }
+  #collapsable-nav li:nth-child(2) a { /* Collapsed nav menu text */
+    border-top: 0px;
+    border-bottom: 0px;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;    
+    color: black;
+  } 
+
+}
+
+/* END MAIN CONTENT */
