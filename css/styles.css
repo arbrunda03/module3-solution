@@ -8,13 +8,11 @@ body {
 #header-nav {  
   border-radius: 0;
   border: 0;
-}
-.container {
-  margin-left:10px;
+  background-color: #e0e7e3;
 }
 #header-nav .container{  
   margin : 0;
-  padding:0;
+  padding: 10px;
 }
 .navbar-brand h1 { /* Restaurant name */
   font-size: 1.5em;  
@@ -69,9 +67,9 @@ padding: 10px;
 /* MAIN CONTENT */
 
 #main-content{
-  height: 1500px;
+  height: auto;
   position: relative;
-  background-color:#fff;
+  background-color:#eceef0;
   color:#000;
   margin: 15px;
   padding: 15px;
@@ -79,11 +77,11 @@ padding: 10px;
 }
 
 #main-content .container{
-  width: 100%
+  width: 90%
 }
 .section{
   margin-bottom: 20px;
-  background-color: #bbbbaa;
+  background-color: #eee7df;
   border-radius: 2px;
   border: 1px gray solid;
 }
